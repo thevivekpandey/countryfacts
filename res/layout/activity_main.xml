@@ -1,0 +1,66 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    xmlns:app="http://schemas.android.com/apk/res/com.astuetz.viewpager.extensions.example">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:useDefaultMargins="true"
+        	android:alignmentMode="alignBounds"
+       		android:columnOrderPreserved="false"
+            android:columnCount="4" >
+            <TextView
+            android:text="Email setup ha ha this is going to be a long text hho hoh"
+            android:textSize="8dip"
+            android:layout_columnSpan="2"
+            android:lines="8"
+            android:background="@drawable/rounded_corner"
+            />
+            <TextView
+            android:text="Email setup this is a long text do you understand sir"
+            android:textSize="16dip"
+            android:layout_columnSpan="2"
+            android:lines="8"
+            android:background="@drawable/rounded_corner"
+            />
+            <TextView
+            android:text="Email setup"
+            android:textSize="16dip"
+            android:layout_columnSpan="4"
+            android:lines="8"
+            />
+            <TextView
+            android:text="Email setup"
+            android:textSize="16dip"
+            android:layout_columnSpan="4"
+            android:lines="8"
+            />
+            <TextView
+            android:text="Email setup"
+            android:textSize="16dip"
+            android:layout_columnSpan="4"
+            android:lines="8"
+            />
+            <TextView
+            android:text="Email setup"
+            android:textSize="16dip"
+            android:layout_columnSpan="4"
+            android:layout_gravity="center_horizontal"
+            android:lines="8"
+            />
+            <TextView
+            android:text="Email setup"
+            android:textSize="16dip"
+            android:layout_columnSpan="4"
+            android:layout_gravity="center_horizontal"
+            android:lines="8"
+            />
+            
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

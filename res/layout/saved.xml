@@ -1,0 +1,54 @@
+<GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignBounds"
+        android:columnOrderPreserved="false"
+        android:columnCount="4"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:numColumns="4">
+    
+    		<TextView
+            android:text="Email setup"
+            android:textSize="16dip"
+            android:layout_columnSpan="4"
+            android:layout_gravity="center_horizontal"
+            android:lines="8"
+            />
+            <TextView
+            android:text="Email setup1"
+            android:textSize="16dip"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:lines="8"
+            />
+            <TextView
+            android:text="Email setup1"
+            android:textSize="16dip"
+            android:layout_columnSpan="4"
+            android:layout_gravity="center_horizontal"
+            android:lines="8"
+            />
+            <TextView
+            android:text="Email setup"
+            android:textSize="16dip"
+            android:layout_columnSpan="4"
+            android:layout_gravity="center_horizontal"
+            android:lines="8"
+            />
+            <TextView
+            android:text="Email setup1"
+            android:textSize="16dip"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:lines="8"
+            />
+            <TextView
+            android:text="Email setup1"
+            android:textSize="16dip"
+            android:layout_columnSpan="4"
+            android:layout_gravity="center_horizontal"
+            android:lines="8"
+            />
+</GridLayout>
